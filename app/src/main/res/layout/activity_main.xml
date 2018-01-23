@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#edf5ac51"
+    android:background="@drawable/dashboard1"
     tools:context="com.example.vitalya.myapplication.MainActivity">
 
     <TextView
@@ -22,7 +22,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"/>
 
 
     <TextView
@@ -40,7 +41,8 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:ems="10"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimary"/>
 
     <TextView
         android:textColor="@color/colorPrimary"
@@ -93,5 +95,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Еще" />
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Обнулить" />
+
 
 </LinearLayout>
